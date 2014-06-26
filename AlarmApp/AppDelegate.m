@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  AlarmApp
 //
-//  Created by hdk on 2014. 6. 27..
+//  Created by hdk on 2014. 6. 26..
 //  Copyright (c) 2014년 Kevin Kwon. All rights reserved.
 //
 
@@ -14,7 +14,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor redColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

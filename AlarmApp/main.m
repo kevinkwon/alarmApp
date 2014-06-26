@@ -2,7 +2,7 @@
 //  main.m
 //  AlarmApp
 //
-//  Created by hdk on 2014. 6. 27..
+//  Created by hdk on 2014. 6. 26..
 //  Copyright (c) 2014년 Kevin Kwon. All rights reserved.
 //
 

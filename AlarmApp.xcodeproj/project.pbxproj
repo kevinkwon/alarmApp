@@ -7,139 +7,147 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F574D43195C7E0300F5AAAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F574D42195C7E0300F5AAAC /* Foundation.framework */; };
-		4F574D45195C7E0300F5AAAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F574D44195C7E0300F5AAAC /* CoreGraphics.framework */; };
-		4F574D47195C7E0300F5AAAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F574D46195C7E0300F5AAAC /* UIKit.framework */; };
-		4F574D4D195C7E0300F5AAAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F574D4B195C7E0300F5AAAC /* InfoPlist.strings */; };
-		4F574D4F195C7E0300F5AAAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F574D4E195C7E0300F5AAAC /* main.m */; };
-		4F574D53195C7E0300F5AAAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F574D52195C7E0300F5AAAC /* AppDelegate.m */; };
-		4F574D55195C7E0300F5AAAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F574D54195C7E0300F5AAAC /* Images.xcassets */; };
-		4F574D5C195C7E0300F5AAAC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F574D5B195C7E0300F5AAAC /* XCTest.framework */; };
-		4F574D5D195C7E0300F5AAAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F574D42195C7E0300F5AAAC /* Foundation.framework */; };
-		4F574D5E195C7E0300F5AAAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F574D46195C7E0300F5AAAC /* UIKit.framework */; };
-		4F574D66195C7E0300F5AAAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F574D64195C7E0300F5AAAC /* InfoPlist.strings */; };
-		4F574D68195C7E0300F5AAAC /* AlarmAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F574D67195C7E0300F5AAAC /* AlarmAppTests.m */; };
+		4F574C8D195C5F5000F5AAAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F574C8C195C5F5000F5AAAC /* Foundation.framework */; };
+		4F574C8F195C5F5000F5AAAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F574C8E195C5F5000F5AAAC /* CoreGraphics.framework */; };
+		4F574C91195C5F5000F5AAAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F574C90195C5F5000F5AAAC /* UIKit.framework */; };
+		4F574C97195C5F5000F5AAAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F574C95195C5F5000F5AAAC /* InfoPlist.strings */; };
+		4F574C99195C5F5000F5AAAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F574C98195C5F5000F5AAAC /* main.m */; };
+		4F574C9D195C5F5000F5AAAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F574C9C195C5F5000F5AAAC /* AppDelegate.m */; };
+		4F574C9F195C5F5000F5AAAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F574C9E195C5F5000F5AAAC /* Images.xcassets */; };
+		4F574CA6195C5F5000F5AAAC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F574CA5195C5F5000F5AAAC /* XCTest.framework */; };
+		4F574CA7195C5F5000F5AAAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F574C8C195C5F5000F5AAAC /* Foundation.framework */; };
+		4F574CA8195C5F5000F5AAAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F574C90195C5F5000F5AAAC /* UIKit.framework */; };
+		4F574CB0195C5F5000F5AAAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F574CAE195C5F5000F5AAAC /* InfoPlist.strings */; };
+		4F574CB2195C5F5000F5AAAC /* AlarmAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F574CB1195C5F5000F5AAAC /* AlarmAppTests.m */; };
+		4F574CBC195C5F7A00F5AAAC /* MainWindows.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F574CBB195C5F7A00F5AAAC /* MainWindows.xib */; };
+		4F574CBF195C617A00F5AAAC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F574CBE195C617A00F5AAAC /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4F574D5F195C7E0300F5AAAC /* PBXContainerItemProxy */ = {
+		4F574CA9195C5F5000F5AAAC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4F574D37195C7E0300F5AAAC /* Project object */;
+			containerPortal = 4F574C81195C5F5000F5AAAC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4F574D3E195C7E0300F5AAAC;
+			remoteGlobalIDString = 4F574C88195C5F5000F5AAAC;
 			remoteInfo = AlarmApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4F574D3F195C7E0300F5AAAC /* AlarmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F574D42195C7E0300F5AAAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4F574D44195C7E0300F5AAAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4F574D46195C7E0300F5AAAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		4F574D4A195C7E0300F5AAAC /* AlarmApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlarmApp-Info.plist"; sourceTree = "<group>"; };
-		4F574D4C195C7E0300F5AAAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4F574D4E195C7E0300F5AAAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4F574D50195C7E0300F5AAAC /* AlarmApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlarmApp-Prefix.pch"; sourceTree = "<group>"; };
-		4F574D51195C7E0300F5AAAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4F574D52195C7E0300F5AAAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4F574D54195C7E0300F5AAAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4F574D5A195C7E0300F5AAAC /* AlarmAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F574D5B195C7E0300F5AAAC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4F574D63195C7E0300F5AAAC /* AlarmAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlarmAppTests-Info.plist"; sourceTree = "<group>"; };
-		4F574D65195C7E0300F5AAAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4F574D67195C7E0300F5AAAC /* AlarmAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmAppTests.m; sourceTree = "<group>"; };
+		4F574C89195C5F5000F5AAAC /* AlarmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F574C8C195C5F5000F5AAAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F574C8E195C5F5000F5AAAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4F574C90195C5F5000F5AAAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4F574C94195C5F5000F5AAAC /* AlarmApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlarmApp-Info.plist"; sourceTree = "<group>"; };
+		4F574C96195C5F5000F5AAAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F574C98195C5F5000F5AAAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F574C9A195C5F5000F5AAAC /* AlarmApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlarmApp-Prefix.pch"; sourceTree = "<group>"; };
+		4F574C9B195C5F5000F5AAAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F574C9C195C5F5000F5AAAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F574C9E195C5F5000F5AAAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4F574CA4195C5F5000F5AAAC /* AlarmAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F574CA5195C5F5000F5AAAC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4F574CAD195C5F5000F5AAAC /* AlarmAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlarmAppTests-Info.plist"; sourceTree = "<group>"; };
+		4F574CAF195C5F5000F5AAAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F574CB1195C5F5000F5AAAC /* AlarmAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmAppTests.m; sourceTree = "<group>"; };
+		4F574CBB195C5F7A00F5AAAC /* MainWindows.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindows.xib; sourceTree = "<group>"; };
+		4F574CBD195C617A00F5AAAC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		4F574CBE195C617A00F5AAAC /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4F574D3C195C7E0300F5AAAC /* Frameworks */ = {
+		4F574C86195C5F5000F5AAAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F574D45195C7E0300F5AAAC /* CoreGraphics.framework in Frameworks */,
-				4F574D47195C7E0300F5AAAC /* UIKit.framework in Frameworks */,
-				4F574D43195C7E0300F5AAAC /* Foundation.framework in Frameworks */,
+				4F574C8F195C5F5000F5AAAC /* CoreGraphics.framework in Frameworks */,
+				4F574C91195C5F5000F5AAAC /* UIKit.framework in Frameworks */,
+				4F574C8D195C5F5000F5AAAC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F574D57195C7E0300F5AAAC /* Frameworks */ = {
+		4F574CA1195C5F5000F5AAAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F574D5C195C7E0300F5AAAC /* XCTest.framework in Frameworks */,
-				4F574D5E195C7E0300F5AAAC /* UIKit.framework in Frameworks */,
-				4F574D5D195C7E0300F5AAAC /* Foundation.framework in Frameworks */,
+				4F574CA6195C5F5000F5AAAC /* XCTest.framework in Frameworks */,
+				4F574CA8195C5F5000F5AAAC /* UIKit.framework in Frameworks */,
+				4F574CA7195C5F5000F5AAAC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F574D36195C7E0300F5AAAC = {
+		4F574C80195C5F5000F5AAAC = {
 			isa = PBXGroup;
 			children = (
-				4F574D48195C7E0300F5AAAC /* AlarmApp */,
-				4F574D61195C7E0300F5AAAC /* AlarmAppTests */,
-				4F574D41195C7E0300F5AAAC /* Frameworks */,
-				4F574D40195C7E0300F5AAAC /* Products */,
+				4F574C92195C5F5000F5AAAC /* AlarmApp */,
+				4F574CAB195C5F5000F5AAAC /* AlarmAppTests */,
+				4F574C8B195C5F5000F5AAAC /* Frameworks */,
+				4F574C8A195C5F5000F5AAAC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4F574D40195C7E0300F5AAAC /* Products */ = {
+		4F574C8A195C5F5000F5AAAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F574D3F195C7E0300F5AAAC /* AlarmApp.app */,
-				4F574D5A195C7E0300F5AAAC /* AlarmAppTests.xctest */,
+				4F574C89195C5F5000F5AAAC /* AlarmApp.app */,
+				4F574CA4195C5F5000F5AAAC /* AlarmAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F574D41195C7E0300F5AAAC /* Frameworks */ = {
+		4F574C8B195C5F5000F5AAAC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4F574D42195C7E0300F5AAAC /* Foundation.framework */,
-				4F574D44195C7E0300F5AAAC /* CoreGraphics.framework */,
-				4F574D46195C7E0300F5AAAC /* UIKit.framework */,
-				4F574D5B195C7E0300F5AAAC /* XCTest.framework */,
+				4F574C8C195C5F5000F5AAAC /* Foundation.framework */,
+				4F574C8E195C5F5000F5AAAC /* CoreGraphics.framework */,
+				4F574C90195C5F5000F5AAAC /* UIKit.framework */,
+				4F574CA5195C5F5000F5AAAC /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4F574D48195C7E0300F5AAAC /* AlarmApp */ = {
+		4F574C92195C5F5000F5AAAC /* AlarmApp */ = {
 			isa = PBXGroup;
 			children = (
-				4F574D51195C7E0300F5AAAC /* AppDelegate.h */,
-				4F574D52195C7E0300F5AAAC /* AppDelegate.m */,
-				4F574D54195C7E0300F5AAAC /* Images.xcassets */,
-				4F574D49195C7E0300F5AAAC /* Supporting Files */,
+				4F574CBB195C5F7A00F5AAAC /* MainWindows.xib */,
+				4F574CBD195C617A00F5AAAC /* RootViewController.h */,
+				4F574CBE195C617A00F5AAAC /* RootViewController.m */,
+				4F574C9B195C5F5000F5AAAC /* AppDelegate.h */,
+				4F574C9C195C5F5000F5AAAC /* AppDelegate.m */,
+				4F574C9E195C5F5000F5AAAC /* Images.xcassets */,
+				4F574C93195C5F5000F5AAAC /* Supporting Files */,
 			);
 			path = AlarmApp;
 			sourceTree = "<group>";
 		};
-		4F574D49195C7E0300F5AAAC /* Supporting Files */ = {
+		4F574C93195C5F5000F5AAAC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4F574D4A195C7E0300F5AAAC /* AlarmApp-Info.plist */,
-				4F574D4B195C7E0300F5AAAC /* InfoPlist.strings */,
-				4F574D4E195C7E0300F5AAAC /* main.m */,
-				4F574D50195C7E0300F5AAAC /* AlarmApp-Prefix.pch */,
+				4F574C94195C5F5000F5AAAC /* AlarmApp-Info.plist */,
+				4F574C95195C5F5000F5AAAC /* InfoPlist.strings */,
+				4F574C98195C5F5000F5AAAC /* main.m */,
+				4F574C9A195C5F5000F5AAAC /* AlarmApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4F574D61195C7E0300F5AAAC /* AlarmAppTests */ = {
+		4F574CAB195C5F5000F5AAAC /* AlarmAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				4F574D67195C7E0300F5AAAC /* AlarmAppTests.m */,
-				4F574D62195C7E0300F5AAAC /* Supporting Files */,
+				4F574CB1195C5F5000F5AAAC /* AlarmAppTests.m */,
+				4F574CAC195C5F5000F5AAAC /* Supporting Files */,
 			);
 			path = AlarmAppTests;
 			sourceTree = "<group>";
 		};
-		4F574D62195C7E0300F5AAAC /* Supporting Files */ = {
+		4F574CAC195C5F5000F5AAAC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4F574D63195C7E0300F5AAAC /* AlarmAppTests-Info.plist */,
-				4F574D64195C7E0300F5AAAC /* InfoPlist.strings */,
+				4F574CAD195C5F5000F5AAAC /* AlarmAppTests-Info.plist */,
+				4F574CAE195C5F5000F5AAAC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -147,13 +155,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F574D3E195C7E0300F5AAAC /* AlarmApp */ = {
+		4F574C88195C5F5000F5AAAC /* AlarmApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F574D6B195C7E0300F5AAAC /* Build configuration list for PBXNativeTarget "AlarmApp" */;
+			buildConfigurationList = 4F574CB5195C5F5000F5AAAC /* Build configuration list for PBXNativeTarget "AlarmApp" */;
 			buildPhases = (
-				4F574D3B195C7E0300F5AAAC /* Sources */,
-				4F574D3C195C7E0300F5AAAC /* Frameworks */,
-				4F574D3D195C7E0300F5AAAC /* Resources */,
+				4F574C85195C5F5000F5AAAC /* Sources */,
+				4F574C86195C5F5000F5AAAC /* Frameworks */,
+				4F574C87195C5F5000F5AAAC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -161,120 +169,122 @@
 			);
 			name = AlarmApp;
 			productName = AlarmApp;
-			productReference = 4F574D3F195C7E0300F5AAAC /* AlarmApp.app */;
+			productReference = 4F574C89195C5F5000F5AAAC /* AlarmApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4F574D59195C7E0300F5AAAC /* AlarmAppTests */ = {
+		4F574CA3195C5F5000F5AAAC /* AlarmAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F574D6E195C7E0300F5AAAC /* Build configuration list for PBXNativeTarget "AlarmAppTests" */;
+			buildConfigurationList = 4F574CB8195C5F5000F5AAAC /* Build configuration list for PBXNativeTarget "AlarmAppTests" */;
 			buildPhases = (
-				4F574D56195C7E0300F5AAAC /* Sources */,
-				4F574D57195C7E0300F5AAAC /* Frameworks */,
-				4F574D58195C7E0300F5AAAC /* Resources */,
+				4F574CA0195C5F5000F5AAAC /* Sources */,
+				4F574CA1195C5F5000F5AAAC /* Frameworks */,
+				4F574CA2195C5F5000F5AAAC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4F574D60195C7E0300F5AAAC /* PBXTargetDependency */,
+				4F574CAA195C5F5000F5AAAC /* PBXTargetDependency */,
 			);
 			name = AlarmAppTests;
 			productName = AlarmAppTests;
-			productReference = 4F574D5A195C7E0300F5AAAC /* AlarmAppTests.xctest */;
+			productReference = 4F574CA4195C5F5000F5AAAC /* AlarmAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4F574D37195C7E0300F5AAAC /* Project object */ = {
+		4F574C81195C5F5000F5AAAC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Kevin Kwon";
 				TargetAttributes = {
-					4F574D59195C7E0300F5AAAC = {
-						TestTargetID = 4F574D3E195C7E0300F5AAAC;
+					4F574CA3195C5F5000F5AAAC = {
+						TestTargetID = 4F574C88195C5F5000F5AAAC;
 					};
 				};
 			};
-			buildConfigurationList = 4F574D3A195C7E0300F5AAAC /* Build configuration list for PBXProject "AlarmApp" */;
+			buildConfigurationList = 4F574C84195C5F5000F5AAAC /* Build configuration list for PBXProject "AlarmApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4F574D36195C7E0300F5AAAC;
-			productRefGroup = 4F574D40195C7E0300F5AAAC /* Products */;
+			mainGroup = 4F574C80195C5F5000F5AAAC;
+			productRefGroup = 4F574C8A195C5F5000F5AAAC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F574D3E195C7E0300F5AAAC /* AlarmApp */,
-				4F574D59195C7E0300F5AAAC /* AlarmAppTests */,
+				4F574C88195C5F5000F5AAAC /* AlarmApp */,
+				4F574CA3195C5F5000F5AAAC /* AlarmAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4F574D3D195C7E0300F5AAAC /* Resources */ = {
+		4F574C87195C5F5000F5AAAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F574D4D195C7E0300F5AAAC /* InfoPlist.strings in Resources */,
-				4F574D55195C7E0300F5AAAC /* Images.xcassets in Resources */,
+				4F574C97195C5F5000F5AAAC /* InfoPlist.strings in Resources */,
+				4F574CBC195C5F7A00F5AAAC /* MainWindows.xib in Resources */,
+				4F574C9F195C5F5000F5AAAC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F574D58195C7E0300F5AAAC /* Resources */ = {
+		4F574CA2195C5F5000F5AAAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F574D66195C7E0300F5AAAC /* InfoPlist.strings in Resources */,
+				4F574CB0195C5F5000F5AAAC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F574D3B195C7E0300F5AAAC /* Sources */ = {
+		4F574C85195C5F5000F5AAAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F574D53195C7E0300F5AAAC /* AppDelegate.m in Sources */,
-				4F574D4F195C7E0300F5AAAC /* main.m in Sources */,
+				4F574C9D195C5F5000F5AAAC /* AppDelegate.m in Sources */,
+				4F574C99195C5F5000F5AAAC /* main.m in Sources */,
+				4F574CBF195C617A00F5AAAC /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F574D56195C7E0300F5AAAC /* Sources */ = {
+		4F574CA0195C5F5000F5AAAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F574D68195C7E0300F5AAAC /* AlarmAppTests.m in Sources */,
+				4F574CB2195C5F5000F5AAAC /* AlarmAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4F574D60195C7E0300F5AAAC /* PBXTargetDependency */ = {
+		4F574CAA195C5F5000F5AAAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F574D3E195C7E0300F5AAAC /* AlarmApp */;
-			targetProxy = 4F574D5F195C7E0300F5AAAC /* PBXContainerItemProxy */;
+			target = 4F574C88195C5F5000F5AAAC /* AlarmApp */;
+			targetProxy = 4F574CA9195C5F5000F5AAAC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4F574D4B195C7E0300F5AAAC /* InfoPlist.strings */ = {
+		4F574C95195C5F5000F5AAAC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4F574D4C195C7E0300F5AAAC /* en */,
+				4F574C96195C5F5000F5AAAC /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		4F574D64195C7E0300F5AAAC /* InfoPlist.strings */ = {
+		4F574CAE195C5F5000F5AAAC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4F574D65195C7E0300F5AAAC /* en */,
+				4F574CAF195C5F5000F5AAAC /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -282,14 +292,14 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4F574D69195C7E0300F5AAAC /* Debug */ = {
+		4F574CB3195C5F5000F5AAAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -320,14 +330,14 @@
 			};
 			name = Debug;
 		};
-		4F574D6A195C7E0300F5AAAC /* Release */ = {
+		4F574CB4195C5F5000F5AAAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -352,7 +362,7 @@
 			};
 			name = Release;
 		};
-		4F574D6C195C7E0300F5AAAC /* Debug */ = {
+		4F574CB6195C5F5000F5AAAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -365,7 +375,7 @@
 			};
 			name = Debug;
 		};
-		4F574D6D195C7E0300F5AAAC /* Release */ = {
+		4F574CB7195C5F5000F5AAAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -378,7 +388,7 @@
 			};
 			name = Release;
 		};
-		4F574D6F195C7E0300F5AAAC /* Debug */ = {
+		4F574CB9195C5F5000F5AAAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AlarmApp.app/AlarmApp";
@@ -400,7 +410,7 @@
 			};
 			name = Debug;
 		};
-		4F574D70195C7E0300F5AAAC /* Release */ = {
+		4F574CBA195C5F5000F5AAAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AlarmApp.app/AlarmApp";
@@ -421,32 +431,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F574D3A195C7E0300F5AAAC /* Build configuration list for PBXProject "AlarmApp" */ = {
+		4F574C84195C5F5000F5AAAC /* Build configuration list for PBXProject "AlarmApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F574D69195C7E0300F5AAAC /* Debug */,
-				4F574D6A195C7E0300F5AAAC /* Release */,
+				4F574CB3195C5F5000F5AAAC /* Debug */,
+				4F574CB4195C5F5000F5AAAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F574D6B195C7E0300F5AAAC /* Build configuration list for PBXNativeTarget "AlarmApp" */ = {
+		4F574CB5195C5F5000F5AAAC /* Build configuration list for PBXNativeTarget "AlarmApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F574D6C195C7E0300F5AAAC /* Debug */,
-				4F574D6D195C7E0300F5AAAC /* Release */,
+				4F574CB6195C5F5000F5AAAC /* Debug */,
+				4F574CB7195C5F5000F5AAAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		4F574D6E195C7E0300F5AAAC /* Build configuration list for PBXNativeTarget "AlarmAppTests" */ = {
+		4F574CB8195C5F5000F5AAAC /* Build configuration list for PBXNativeTarget "AlarmAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F574D6F195C7E0300F5AAAC /* Debug */,
-				4F574D70195C7E0300F5AAAC /* Release */,
+				4F574CB9195C5F5000F5AAAC /* Debug */,
+				4F574CBA195C5F5000F5AAAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4F574D37195C7E0300F5AAAC /* Project object */;
+	rootObject = 4F574C81195C5F5000F5AAAC /* Project object */;
 }
