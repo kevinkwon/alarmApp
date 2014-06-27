@@ -13,20 +13,25 @@
 @class SetupViewController;
 
 @interface RootViewController : UIViewController {
-    UIButton *_infoButton;
+    UIButton *infoButton;
+
+// 생략가능
+//    IBOutlet UIButton *_infoButton;
+//    
+//    MainViewController *_mainViewController; // 시계화면 컨트롤러
+//    
+//    SetupViewController *_setupViewController; // 설정화면 컨트롤러
     
-    MainViewController *_mainViewController; // 시계화면 컨트롤러
-    
-    SetupViewController *_setupViewController; // 설정화면 컨트롤러
 }
 
-@property (nonatomic, retain) IBOutlet  UIButton *infoButton;
+@property (nonatomic, retain) IBOutlet UIButton *infoButton;
 
 @property (nonatomic, retain) MainViewController *mainViewController;
 
-@property (nonatomic, retain) SetupViewController *_setupViewController;
+@property (nonatomic, retain) SetupViewController *setupViewController;
 
-- (IBAction)setupClick:(id)sender
-- (void)alarmSetting;
+- (IBAction)setupClick:(id)sender; // 화면 전환시 호출됩니다.
+
+- (void)alarmSetting; // 알람 시간을 설정합니다.
 
 @end

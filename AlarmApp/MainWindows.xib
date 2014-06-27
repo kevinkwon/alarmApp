@@ -6,23 +6,32 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIApplication">
             <connections>
-                <outlet property="delegate" destination="BjK-13-NKf" id="qSQ-9r-ALZ"/>
+                <outlet property="delegate" destination="BjK-13-NKf" id="HgJ-Vi-bHe"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <window opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="kr3-G7-pcv">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="window" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3T-Uy-RGA">
+                    <rect key="frame" x="130" y="481" width="60" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <connections>
-                <outlet property="rootViewController" destination="G3H-Or-e20" id="sgt-Bq-1TA"/>
+                <outlet property="rootViewController" destination="G3H-Or-e20" id="dze-bC-fsL"/>
             </connections>
         </window>
         <customObject id="BjK-13-NKf" customClass="AppDelegate">
             <connections>
-                <outlet property="window" destination="kr3-G7-pcv" id="zxp-x6-gCP"/>
+                <outlet property="window" destination="kr3-G7-pcv" id="0SN-pD-HFz"/>
             </connections>
         </customObject>
         <viewController id="G3H-Or-e20" customClass="RootViewController">
@@ -40,7 +49,16 @@
                         <state key="normal">
                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                         </state>
+                        <connections>
+                            <action selector="setupClick:" destination="-2" eventType="touchUpInside" id="nIK-G7-kcG"/>
+                        </connections>
                     </button>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="rootVC" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZfU-E2-Qbl">
+                        <rect key="frame" x="144" y="520" width="54" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             </view>
@@ -49,6 +67,9 @@
             <nil key="simulatedBottomBarMetrics"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <outlet property="infoButton" destination="5ue-FC-YWb" id="UI4-Xm-T25"/>
+            </connections>
         </viewController>
     </objects>
 </document>

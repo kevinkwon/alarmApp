@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F3D0B31195D151300393E5E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D0B2F195D151300393E5E /* MainViewController.m */; };
+		4F3D0B32195D151300393E5E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F3D0B30195D151300393E5E /* MainViewController.xib */; };
+		4F3D0B35195D152F00393E5E /* MainClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D0B34195D152F00393E5E /* MainClockView.m */; };
+		4F3D0B7A195D4C5700393E5E /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D0B78195D4C5700393E5E /* SetupViewController.m */; };
+		4F3D0B7B195D4C5700393E5E /* SetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F3D0B79195D4C5700393E5E /* SetupViewController.xib */; };
+		4F3D0B83195D6D0400393E5E /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3D0B82195D6D0400393E5E /* clock.png */; };
 		4F574C8D195C5F5000F5AAAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F574C8C195C5F5000F5AAAC /* Foundation.framework */; };
 		4F574C8F195C5F5000F5AAAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F574C8E195C5F5000F5AAAC /* CoreGraphics.framework */; };
 		4F574C91195C5F5000F5AAAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F574C90195C5F5000F5AAAC /* UIKit.framework */; };
@@ -34,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F3D0B2E195D151300393E5E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4F3D0B2F195D151300393E5E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4F3D0B30195D151300393E5E /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		4F3D0B33195D152F00393E5E /* MainClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainClockView.h; sourceTree = "<group>"; };
+		4F3D0B34195D152F00393E5E /* MainClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainClockView.m; sourceTree = "<group>"; };
+		4F3D0B77195D4C5700393E5E /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		4F3D0B78195D4C5700393E5E /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		4F3D0B79195D4C5700393E5E /* SetupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetupViewController.xib; sourceTree = "<group>"; };
+		4F3D0B82195D6D0400393E5E /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
 		4F574C89195C5F5000F5AAAC /* AlarmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F574C8C195C5F5000F5AAAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4F574C8E195C5F5000F5AAAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +97,7 @@
 		4F574C80195C5F5000F5AAAC = {
 			isa = PBXGroup;
 			children = (
+				4F3D0B82195D6D0400393E5E /* clock.png */,
 				4F574C92195C5F5000F5AAAC /* AlarmApp */,
 				4F574CAB195C5F5000F5AAAC /* AlarmAppTests */,
 				4F574C8B195C5F5000F5AAAC /* Frameworks */,
@@ -112,11 +128,19 @@
 		4F574C92195C5F5000F5AAAC /* AlarmApp */ = {
 			isa = PBXGroup;
 			children = (
+				4F574C9B195C5F5000F5AAAC /* AppDelegate.h */,
+				4F574C9C195C5F5000F5AAAC /* AppDelegate.m */,
 				4F574CBB195C5F7A00F5AAAC /* MainWindows.xib */,
 				4F574CBD195C617A00F5AAAC /* RootViewController.h */,
 				4F574CBE195C617A00F5AAAC /* RootViewController.m */,
-				4F574C9B195C5F5000F5AAAC /* AppDelegate.h */,
-				4F574C9C195C5F5000F5AAAC /* AppDelegate.m */,
+				4F3D0B2E195D151300393E5E /* MainViewController.h */,
+				4F3D0B2F195D151300393E5E /* MainViewController.m */,
+				4F3D0B30195D151300393E5E /* MainViewController.xib */,
+				4F3D0B77195D4C5700393E5E /* SetupViewController.h */,
+				4F3D0B78195D4C5700393E5E /* SetupViewController.m */,
+				4F3D0B79195D4C5700393E5E /* SetupViewController.xib */,
+				4F3D0B33195D152F00393E5E /* MainClockView.h */,
+				4F3D0B34195D152F00393E5E /* MainClockView.m */,
 				4F574C9E195C5F5000F5AAAC /* Images.xcassets */,
 				4F574C93195C5F5000F5AAAC /* Supporting Files */,
 			);
@@ -227,9 +251,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3D0B83195D6D0400393E5E /* clock.png in Resources */,
 				4F574C97195C5F5000F5AAAC /* InfoPlist.strings in Resources */,
+				4F3D0B7B195D4C5700393E5E /* SetupViewController.xib in Resources */,
 				4F574CBC195C5F7A00F5AAAC /* MainWindows.xib in Resources */,
 				4F574C9F195C5F5000F5AAAC /* Images.xcassets in Resources */,
+				4F3D0B32195D151300393E5E /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +277,10 @@
 			files = (
 				4F574C9D195C5F5000F5AAAC /* AppDelegate.m in Sources */,
 				4F574C99195C5F5000F5AAAC /* main.m in Sources */,
+				4F3D0B35195D152F00393E5E /* MainClockView.m in Sources */,
 				4F574CBF195C617A00F5AAAC /* RootViewController.m in Sources */,
+				4F3D0B7A195D4C5700393E5E /* SetupViewController.m in Sources */,
+				4F3D0B31195D151300393E5E /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +477,7 @@
 				4F574CB7195C5F5000F5AAAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F574CB8195C5F5000F5AAAC /* Build configuration list for PBXNativeTarget "AlarmAppTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +486,7 @@
 				4F574CBA195C5F5000F5AAAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
