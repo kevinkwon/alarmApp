@@ -13,8 +13,6 @@
 @class SetupViewController;
 
 @interface RootViewController : UIViewController {
-    UIButton *infoButton;
-
 // 생략가능
 //    IBOutlet UIButton *_infoButton;
 //    
@@ -24,11 +22,11 @@
     
 }
 
-@property (nonatomic, retain) IBOutlet UIButton *infoButton;
+@property (nonatomic, retain) IBOutlet UIButton *infoButton; // 정보 버튼
 
-@property (nonatomic, retain) MainViewController *mainViewController;
+@property (nonatomic, retain) MainViewController *mainViewController; // 시계가 있는 뷰컨
 
-@property (nonatomic, retain) SetupViewController *setupViewController;
+@property (nonatomic, retain) SetupViewController *setupViewController; // 설정이 있는 뷰컨
 
 - (IBAction)setupClick:(id)sender; // 화면 전환시 호출됩니다.
 

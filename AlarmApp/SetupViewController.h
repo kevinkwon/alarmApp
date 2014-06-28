@@ -10,9 +10,9 @@
 
 @interface SetupViewController : UIViewController
 {
-    IBOutlet UIDatePicker *pDatePicker;
+    IBOutlet UIDatePicker *_pDatePicker;
 
-    IBOutlet UISwitch *switchControl;
+    IBOutlet UISwitch *_switchControl;
 }
 
 @property (retain, nonatomic) IBOutlet UIDatePicker *pDatePicker;

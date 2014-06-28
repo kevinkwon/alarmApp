@@ -10,13 +10,14 @@
 #import "MainClockView.h"
 
 @interface MainViewController : UIViewController {
-    NSTimer *timer;
+    NSTimer *_timer;
     
-    IBOutlet UILabel *clockDisplay; // 디지털 시계
-    IBOutlet MainClockView *pClockView; // 아날로그 시계
+    IBOutlet UILabel *_clockDisplay; // 디지털 시계
+    IBOutlet MainClockView *_pClockView; // 아날로그 시계
     
-    BOOL pAlarmOnOff; // 알람 설정 여부
-    int pAlarmHour, pAlarmMinute; // 알람 시간, (시, 분)
+    BOOL _pAlarmOnOff; // 알람 설정 여부
+    int _pAlarmHour; // 알람 시간, (시)
+    int _pAlarmMinute; // 알람 시간, (분)
 }
 
 - (void)onTimer; // 타이머 이벤트 핸들러

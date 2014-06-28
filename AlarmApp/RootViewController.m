@@ -30,11 +30,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    MainViewController *target = [[MainViewController alloc]initWithNibName:@"MainViewController" bundle:nil];
-    self.mainViewController = target;
-    [target release];
-    
-    [self.view insertSubview:self.mainViewController.view belowSubview:self.infoButton];
+//    MainViewController *target = [[MainViewController alloc]initWithNibName:@"MainViewController" bundle:nil];
+//    self.mainViewController = target;
+//    [target release];
+//    
+//    [self.view insertSubview:self.mainViewController.view belowSubview:self.infoButton];
 }
 
 - (void)didReceiveMemoryWarning
@@ -66,6 +66,7 @@
 #pragma mark - Publick Method
 - (IBAction)setupClick:(id)sender // 화면 전환시 호출됩니다.
 {
+    NSLog(@"설정버튼 터치됨");
     if (!_setupViewController) {
         [self loadSetupViewController];
     }
@@ -82,12 +83,14 @@
                              cache:YES];
     // 메인뷰의 슈퍼뷰가 있는 경우 : 메인뷰를 보고 있는 경우
     if (!mainView.superview) {
+        NSLog(@"a");
         [mainView removeFromSuperview];
         [_infoButton removeFromSuperview];
         [self.view addSubview:setupView];
     }
     // 셀정뷰의 슈퍼뷰가 있는 경우 : 설정뷰를 보고 있는 경우
     else {
+        NSLog(@"b");
         [self alarmSetting];
         [setupView removeFromSuperview];
         [self.view addSubview:mainView];
@@ -134,8 +137,8 @@
                                 | NSSecondCalendarUnit;
         NSDate *date = [_setupViewController.pDatePicker date];
         NSDateComponents *comps = [pCalendar components:unitFlags fromDate:date];
-        _mainViewController.pAlarmHour = [comps hour];
-        _mainViewController.pAlarmMinute = [comps minute];
+        _mainViewController.pAlarmHour = (int)[comps hour];
+        _mainViewController.pAlarmMinute = (int)[comps minute];
         [pCalendar release];
     }
 }

@@ -28,14 +28,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    pAlarmHour = NO;
+    _pAlarmHour = NO;
     
     [self onTimer];
     
-    timer = [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(onTimer) userInfo:nil repeats:YES];
+    _timer = [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(onTimer) userInfo:nil repeats:YES];
     
     // 현재 시간을 뷰에 표현할 폰트
-    [clockDisplay setFont:[UIFont fontWithName:@"DBLCDTempBlack" size:64.0f]];
+    [_clockDisplay setFont:[UIFont fontWithName:@"DBLCDTempBlack" size:64.0f]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -53,19 +53,19 @@
 
     NSDate *date = [NSDate date]; // 현재시간 구함
     NSDateComponents *comps = [pCalendar components:unitFlag fromDate:date];
-    pHour = [comps hour]; // 현재시간 시
-    pMinute = [comps minute]; // 현재시간 분
-    pSecond = [comps second]; // 현재시간 초
-    clockDisplay.text = [NSString stringWithFormat:@"%02d:%02d:%02d", pHour, pMinute, pSecond];
+    pHour = (int)[comps hour]; // 현재시간 시
+    pMinute = (int)[comps minute]; // 현재시간 분
+    pSecond = (int)[comps second]; // 현재시간 초
+    _clockDisplay.text = [NSString stringWithFormat:@"%02d:%02d:%02d", pHour, pMinute, pSecond];
     
-    pClockView.pHour = pHour;
-    pClockView.pMinute = pMinute;
-    pClockView.pSecond = pSecond;
+    _pClockView.pHour = pHour;
+    _pClockView.pMinute = pMinute;
+    _pClockView.pSecond = pSecond;
     
-    [pClockView setNeedsDisplay]; // 아나로그 시계뷰를 다시 그립니다.
+    [_pClockView setNeedsDisplay]; // 아나로그 시계뷰를 다시 그립니다.
     
-    if (pAlarmOnOff) {
-        if (pAlarmHour == pHour && pAlarmMinute == pMinute && pSecond == 0) {
+    if (_pAlarmOnOff) {
+        if (_pAlarmHour == pHour && _pAlarmMinute == pMinute && pSecond == 0) {
             [self messageDisplay];
         }
     }

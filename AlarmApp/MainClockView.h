@@ -11,9 +11,9 @@
 @interface MainClockView : UIView
 {
     CGImageRef imgClock; // 이미지
-    int pHour;
-    int pMinute;
-    int pSecond;
+    int _pHour;
+    int _pMinute;
+    int _pSecond;
 }
 
 - (void)drawLine:(CGContextRef)context;
@@ -22,7 +22,7 @@
 - (void)drawMinute:(CGContextRef)context centerX:(int)pCenterX centerY:(int)centerY;
 - (void)drawHour:(CGContextRef)context centerX:(int)pCenterX centerY:(int)centerY;
 
-@property int pHour;
+@property int pHour; // (nonatomic, assign)  생략됨
 @property int pMinute;
 @property int pSecond;
 

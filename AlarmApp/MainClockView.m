@@ -8,18 +8,20 @@
 
 #import "MainClockView.h"
 
-const int SECOND_WIDTH = 20;
-const int MINUTE_WIDTH = 17;
-const int HOUR_WIDTH = 12;
+const int SECOND_WIDTH = 80;
+const int MINUTE_WIDTH = 70;
+const int HOUR_WIDTH = 60;
 
 @implementation MainClockView
 
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
     self = [super initWithCoder:aDecoder];
-    UIImage *img = [UIImage imageNamed:@"clock.png"];
-    imgClock = CGImageRetain(img.CGImage);
-    [img release];
+    if (self) {
+        UIImage *img = [UIImage imageNamed:@"clock.png"]; // 시계이미지를 불러온다.
+        imgClock = CGImageRetain(img.CGImage);
+        [img release];
+    }
     
     return self;
 }
@@ -62,8 +64,8 @@ const int HOUR_WIDTH = 12;
     // 현재의 초에 해당하는 좌표를 구합니다.
     int newX, newY;
     // 초침의 끝점 좌표를 구한다.
-    newX = (int)(sin(pSecond * 6 * 3.14 / 180) * SECOND_WIDTH + pCenterX);
-    newY = (int)(centerY = (cos(pSecond * 6 * 3.14 / 180) * SECOND_WIDTH));
+    newX = (int)(sin(_pSecond * 6 * 3.14 / 180) * SECOND_WIDTH + pCenterX);
+    newY = (int)(centerY - (cos(_pSecond * 6 * 3.14 / 180) * SECOND_WIDTH));
     
     CGContextSetRGBStrokeColor(context, 0, 0, 0, 1.0f); // 색지정
     CGContextSetLineWidth(context, 2.0); // 선 굵기
@@ -77,8 +79,8 @@ const int HOUR_WIDTH = 12;
     // 현재의 초에 해당하는 좌표를 구합니다.
     int newX, newY;
     // 분침의 끝점 좌표를 구한다.
-    newX = (int)(sin(pMinute * 6 * 3.14 / 180) * MINUTE_WIDTH + pCenterX);
-    newY = (int)(centerY = (cos(pMinute * 6 * 3.14 / 180) * MINUTE_WIDTH));
+    newX = (int)(sin(_pMinute * 6 * 3.14 / 180) * MINUTE_WIDTH + pCenterX);
+    newY = (int)(centerY - (cos(_pMinute * 6 * 3.14 / 180) * MINUTE_WIDTH));
     
     CGContextSetRGBStrokeColor(context, 0, 0, 0, 1.0f); // 색지정
     CGContextSetLineWidth(context, 3.0); // 선 굵기
@@ -92,8 +94,8 @@ const int HOUR_WIDTH = 12;
     // 현재의 초에 해당하는 좌표를 구합니다.
     int newX, newY;
     // 분침의 끝점 좌표를 구한다.
-    newX = (int)(sin(pMinute * 30 * 3.14 / 180) * HOUR_WIDTH + pCenterX);
-    newY = (int)(centerY = (cos(pMinute * 30 * 3.14 / 180) * HOUR_WIDTH));
+    newX = (int)(sin(_pHour * 30 * 3.14 / 180) * HOUR_WIDTH + pCenterX);
+    newY = (int)(centerY - (cos(_pHour * 30 * 3.14 / 180) * HOUR_WIDTH));
     
     CGContextSetRGBStrokeColor(context, 0, 0, 0, 1.0f); // 색지정
     CGContextSetLineWidth(context, 4.0); // 선 굵기

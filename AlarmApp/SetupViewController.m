@@ -28,7 +28,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    pDatePicker.date = [NSDate date];
+    _pDatePicker.date = [NSDate date];
 }
 
 - (void)didReceiveMemoryWarning
@@ -38,8 +38,8 @@
 }
 
 - (void)dealloc {
-    [pDatePicker release];
-    [switchControl release];
+    [_pDatePicker release];
+    [_switchControl release];
     [super dealloc];
 }
 @end
